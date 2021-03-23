@@ -131,3 +131,7 @@ dmypy.json
 # Pycharm
 .idea
 idea/
+
+# Config
+# .config.yaml
+# config.yaml
