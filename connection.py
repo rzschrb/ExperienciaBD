@@ -8,7 +8,7 @@ with open("config.yaml", "r") as ymlfile:
 
 os.environ['PATH'] = cfg["icpath"]
 
-# Criar conexão
+# Create connection
 connection = cx_Oracle.connect(cfg["database"])
 cursor = connection.cursor()
 
